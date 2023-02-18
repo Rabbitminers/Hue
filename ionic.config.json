@@ -1,7 +1,7 @@
 {
-  "name": "Hue",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "vue"
+    "name": "Hue",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "vue"
 }
