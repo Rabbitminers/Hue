@@ -1,6 +1,5 @@
 import { DiscoveryBridgeDefinition, BridgeData} from './types';
 import { DISCOVERY_URL } from "@/data/constants"
-import { getBridgeAddresses } from '../base/store';
 
 export function bridgeDiscovery(): Promise<DiscoveryBridgeDefinition[]> {
     return fetch(DISCOVERY_URL)
