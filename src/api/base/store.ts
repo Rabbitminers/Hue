@@ -1,5 +1,4 @@
 import { Preferences } from '@capacitor/preferences';
-import { URL_KEY } from "@/data/constants"
 import { BridgeData } from './types';
 import { BRIDGE_KEY } from '../../data/constants';
 
