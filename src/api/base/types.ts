@@ -25,3 +25,9 @@ export interface BridgeData {
     port: number;
     username: string;
 }
+
+export type RGB = {
+    r: number,
+    g: number,
+    b: number
+}
