@@ -1,5 +1,53 @@
 .base-card {
+    height: 6.5em;
     border-radius: 10px;
     margin: 2em;
     background-color: var(--ion-card-background);
+}
+
+.banner-slider {
+    -webkit-appearance: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 25px;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.room-toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.room-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.banner-toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.banner-toggle:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
